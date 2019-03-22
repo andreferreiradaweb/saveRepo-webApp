@@ -1,0 +1,2 @@
+after chocolatey downloaded, install yarn by the following command line:
+ - choco install yarn
