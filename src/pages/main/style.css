@@ -1,0 +1,75 @@
+.product-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list article {
+    background:#fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.product-list article a {
+    padding: 5px 10px;
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #ff55cc;
+    background: none;
+    color: #ff55cc;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-list article a:hover {
+    color:#fff;
+    background-color:#ff55cc;
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ff55cc;
+    background: #ff55cc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.product-list .actions button:hover {
+    cursor: pointer;
+    border: 2px solid #ff55cc;
+    background: #fff;
+    color: #ff55cc;
+    transition: all 0.3s;
+}
+
+.product-list .actions button[disabled] {
+    opacity: 0.4;
+    cursor: default;
+}
+.product-list .actions button[disabled]:hover {
+    border: 2px solid #ff55cc;
+    background: #ff55cc;
+    color: #fff;
+}
